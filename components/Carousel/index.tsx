@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Modal from 'react-modal';
+import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -53,15 +54,15 @@ const CustomModal = () => {
         <button onClick={closeModal}>Close Modal</button>
         <Carousel showArrows={true}>
           <div>
-            <img src="/images/about/1.png" alt="Image 1" />
+            <Image src="/images/about/1.png" alt="Image 1" />
             <p className="legend">Image 1</p>
           </div>
           <div>
-            <img src="/images/about/1.png" alt="Image 2" />
+            <Image src="/images/about/1.png" alt="Image 2" />
             <p className="legend">Image 2</p>
           </div>
           <div>
-            <img src="/images/about/1.png" alt="Image 3" />
+            <Image src="/images/about/1.png" alt="Image 3" />
             <p className="legend">Image 3</p>
           </div>
         </Carousel>
