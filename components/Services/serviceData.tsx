@@ -3,23 +3,23 @@ import { Project } from "@/types/project";
 const teamData: Project[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Batiment & Travaux Public",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/2.png",
+    image: "/images/services/building.jpg",
     tags: ["Engineer"],
   },
   {
     id: 2,
-    title: "8 simple ways to improve your design skills",
+    title: "Electrical Engineering",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/3.png",
+    image: "/images/services/house.jpg",
     tags: ["Engineer"],
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Software Engineering",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/blog/5.png",
