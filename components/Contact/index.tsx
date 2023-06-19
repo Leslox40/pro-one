@@ -12,7 +12,7 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-              Besoin d'aide ? Ouvrez un ticket.
+              Besoin d&apos;aide ? Ouvrez un ticket.
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
               Notre équipe de support vous répondra dès que possible par e-mail.

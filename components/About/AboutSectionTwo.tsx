@@ -24,7 +24,7 @@ const AboutSectionTwo = () => {
                   Expertise
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Notre équipe de professionnels hautement qualifiés possède une connaissance approfondie de l'industrie, 
+                  Notre équipe de professionnels hautement qualifiés possède une connaissance approfondie de l&apos;industrie, 
                   offrant des solutions précises et innovantes qui dépassent les attentes.
                 </p>
               </div>
@@ -34,12 +34,12 @@ const AboutSectionTwo = () => {
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Nous incarnons le professionnalisme dans toutes nos actions, de la communication rapide et fiable 
-                  à l'attention méticuleuse portée aux détails, garantissant des résultats exceptionnels avec intégrité.
+                  à l&apos;attention méticuleuse portée aux détails, garantissant des résultats exceptionnels avec intégrité.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Travail d'équipe
+                  Travail d&apos;équipe
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   La collaboration est au cœur de notre succès, favorisant une culture qui valorise les perspectives 
