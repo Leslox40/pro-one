@@ -11,6 +11,8 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import Services from "@/components/Services";
 import { Inter } from "@next/font/google";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
 
 const inter = Inter({ subsets: ["latin"] });
 

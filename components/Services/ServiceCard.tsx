@@ -8,7 +8,7 @@ const Member = ({ project }: { project: Project }) => {
   return (
     <>
       <div
-        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark"
+        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark "
         data-wow-delay=".1s"
       >
         <Link href="/" className="relative block h-[320px] w-full">
