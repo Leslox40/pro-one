@@ -5,32 +5,32 @@ export const portfolioData: Project[] = [
     id: 1,
     title: "Batiment & Travaux Public",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Nous vous aidons à créer un environnement plus sûr, plus efficace et plus durable.",
     image: "/images/services/building.jpg",
     tags: ["Engineer"],
   },
   {
     id: 2,
-    title: "Electrical Engineering",
+    title: "Ingénierie Electrical",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Nous sommes votre partenaire de confiance en matière d'ingénierie électrique.",
     image: "/images/services/house.jpg",
     tags: ["Engineer"],
   },
   {
     id: 3,
-    title: "Software Engineering",
+    title: "Ingénierie Logicielle",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/5.png",
+      "Nous sommes experts en ingénierie logicielle, de la conception à la maintenance.",
+    image: "/images/services/software.jpg",
     tags: ["Engineer"],
   },
   {
     id: 4,
-    title: "Formation",
+    title: "Formations",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/5.png",
+      "Nous vous formons, et vous nous transmettons des competences utiles donc vous avez besion pour reussir",
+    image: "/images/services/formation.jpg",
     tags: ["Engineer"],
   },
 ];

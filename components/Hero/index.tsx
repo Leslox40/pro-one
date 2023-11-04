@@ -170,7 +170,7 @@ const Hero = () => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
@@ -273,7 +273,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div> */}
+        </div>
       </section>
     </>
   );

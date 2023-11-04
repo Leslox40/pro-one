@@ -7,8 +7,8 @@ const Team = () => {
     <section id="blog" className="bg-primary/5 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Meet our Team of Engineers"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Voici notre Team d'Ingénieurs"
+          paragraph="Rencontrez notre equipe d'experts qui faconnent et repondent a tout vos besoins"
           center
         />
 

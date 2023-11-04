@@ -11,7 +11,7 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/7.png"
+                src="/images/about/experts.svg"
                 alt="about image"
                 fill
               />
