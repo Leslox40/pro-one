@@ -1,6 +1,6 @@
 import { Project } from "@/types/project";
 
-const teamData: Project[] = [
+export const portfolioData: Project[] = [
   {
     id: 1,
     title: "Batiment & Travaux Public",
@@ -25,33 +25,41 @@ const teamData: Project[] = [
     image: "/images/blog/5.png",
     tags: ["Engineer"],
   },
+  {
+    id: 4,
+    title: "Formation",
+    paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+    image: "/images/blog/5.png",
+    tags: ["Engineer"],
+  },
 ];
 
 export const serviceSectionData = {
   sectionOne: {
     services: {
-      title: 'hello',
-      paragraph: 'hi I am hello',
+      title: 'hello1',
+      paragraph: 'The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables',
       listOne: ['Premium Quality', 'Tailwind CSS', 'Use for Lifetime'],
       listTwo: ['Next.js', 'Rich Documentation', 'Developer friendly'],
       imgSrc: '/images/services/a.png',
     },
     software: {
-      title: 'hello',
+      title: 'hello2',
       paragraph: 'hi I am hello',
       listOne: ['Premium Quality', 'Tailwind CSS', 'Use for Lifetime'],
       listTwo: ['Next.js', 'Rich Documentation', 'Developer friendly'],
       imgSrc: '/images/services/a.png',
     },
     electrical: {
-      title: 'hello',
+      title: 'hello3',
       paragraph: 'hi I am hello',
       listOne: ['Premium Quality', 'Tailwind CSS', 'Use for Lifetime'],
       listTwo: ['Next.js', 'Rich Documentation', 'Developer friendly'],
       imgSrc: '/images/services/a.png',
     },
     structural: {
-      title: 'hello',
+      title: 'hello4',
       paragraph: 'hi I am hello',
       listOne: ['Premium Quality', 'Tailwind CSS', 'Use for Lifetime'],
       listTwo: ['Next.js', 'Rich Documentation', 'Developer friendly'],
@@ -97,4 +105,3 @@ export const serviceSectionData = {
     },
   }
 }
-export default teamData;

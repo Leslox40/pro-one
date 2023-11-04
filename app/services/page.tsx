@@ -7,6 +7,8 @@ import Pricing from "@/components/Pricing";
 import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import CustomModal from "@/components/Carousel";
+import { serviceSectionData } from "@/components/Services/serviceData";
+
 
 
 
@@ -22,9 +24,9 @@ const ServicesPage = () => {
       <Video videoId={"L61p2uyiMSo"} imgSrc={"/images/video/video.jpg"} />
       <Services />
       <Pricing />
-      <Portfolio />
-      <ServicesSectionOne imgSrc={"/images/about/1.png"} />
-      <ServicesSectionTwo imgSrc={"/images/about/about-image-2.svg"} />
+      <Portfolio limit={6} />
+      <ServicesSectionOne serviceData={serviceSectionData.sectionOne.services} />
+      <ServicesSectionTwo serviceData={serviceSectionData.sectionTwo.services} />
       <CustomModal />
     </>
   );

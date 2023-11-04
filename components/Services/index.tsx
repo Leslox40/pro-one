@@ -1,6 +1,6 @@
 import SectionTitle from "../Common/SectionTitle";
 import ServiceCard from "./ServiceCard";
-import portfolioData from "./serviceData";
+import { portfolioData } from "./serviceData";
 
 const Services = () => {
   return (

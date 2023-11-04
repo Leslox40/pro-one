@@ -6,7 +6,7 @@ const teamData: Project[] = [
     title: "Structural Engineer",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/team/belmark1.png",
+    image: "/images/team/belmark2.png",
     tags: ["Engineer"],
   },
   {
@@ -14,7 +14,7 @@ const teamData: Project[] = [
     title: "Structural Engineer & Architect",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/team/pepe1.png",
+    image: "/images/team/pepe2.png",
     tags: ["Engineer"],
   },
   {
@@ -22,7 +22,7 @@ const teamData: Project[] = [
     title: "Electrical Engineer",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/team/gervais.png",
+    image: "/images/team/gervais2.png",
     tags: ["Engineer"],
   },
   {
@@ -30,7 +30,7 @@ const teamData: Project[] = [
     title: "Electrical Engineer",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/team/fotsop.png",
+    image: "/images/team/fotsop2.png",
     tags: ["Engineer"],
   },
   {
@@ -38,7 +38,7 @@ const teamData: Project[] = [
     title: "Software Engineer",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/team/Leslie.png",
+    image: "/images/team/leslie2.png",
     tags: ["Engineer"],
   },
 ];

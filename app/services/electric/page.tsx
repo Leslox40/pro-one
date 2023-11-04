@@ -2,6 +2,7 @@ import ServicesSectionOne from "@/components/Services/ServicesSectionOne";
 import ServicesSectionTwo from "@/components/Services/ServicesSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Portfolio from "@/components/Portfolio";
+import { serviceSectionData } from "@/components/Services/serviceData";
 
 const ElectricServicesPage = () => {
     return (
@@ -10,9 +11,9 @@ const ElectricServicesPage = () => {
           pageName="Electrical Engineering Services"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
         />
-        <ServicesSectionOne imgSrc={"/images/about/1.png"} />
-        <Portfolio />
-        <ServicesSectionTwo imgSrc={"/images/about/about-image-2.svg"} />
+        <ServicesSectionOne serviceData={serviceSectionData.sectionOne.electrical} />
+        <Portfolio limit={6} />
+        <ServicesSectionTwo serviceData={serviceSectionData.sectionTwo.electrical} />
       </>
     );
   };
