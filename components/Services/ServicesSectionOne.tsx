@@ -24,11 +24,7 @@ const ServicesSectionOne = ({ serviceData }) => {
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title={title}
-                paragraph={paragraph}
-                mb="44px"
-              />
+              <SectionTitle title={title} paragraph={paragraph} mb="44px" />
 
               <div
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
@@ -36,19 +32,15 @@ const ServicesSectionOne = ({ serviceData }) => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    {
-                      listOne.map(item => (
-                        <List text={item} />
-                      ))
-                    }
+                    {listOne.map((item) => (
+                      <List text={item} key={item.id} />
+                    ))}
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    {
-                      listTwo.map(item => (
-                        <List text={item} />
-                      ))
-                    }
+                    {listTwo.map((item) => (
+                      <List text={item} key={item.id} />
+                    ))}
                   </div>
                 </div>
               </div>
